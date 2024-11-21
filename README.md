@@ -17,7 +17,7 @@ CarePulse ist ein modernes und umfassendes Gesundheitsmanagement-System, entwick
 - Datenschutz und Sicherheitsmaßnahmen durch individuelle Einwilligungen.
 
 ## 📂 Projektstruktur
-´´´
+```
 /
 ├── components/              # Wiederverwendbare Komponenten (Forms, Buttons, Tables)
 ├── lib/                     # API-Aufrufe, Validierungen und Hilfsfunktionen
@@ -26,7 +26,7 @@ CarePulse ist ein modernes und umfassendes Gesundheitsmanagement-System, entwick
 ├── styles/                  # Globale CSS-Dateien (TailwindCSS-Konfiguration)
 ├── types/                   # Typdefinitionen (z. B. für Appwrite)
 └── tailwind.config.ts       # TailwindCSS-Konfigurationsdatei
-´´´
+```
 
 ## 🚀 Technologien
 - Next.js: React-Framework für serverseitiges Rendering und API-Integration.
@@ -47,35 +47,35 @@ Während der Entwicklung dieses Projekts wurden folgende Technologien und Konzep
 
 ## ⚙️ Installation und Verwendung
 ### 1. Repository klonen:
-´´´
+```
 git clone https://github.com/PeterKlass/gm_kontakt.git
 cd gm_kontakt
-´´´
+```
 
 ### 2. Abhängigkeiten installieren:
-´´´
+```
 npm install
-´´´
+```
 
 ### 3. Entwicklungsserver starten:
-´´´
+```
 npm run dev
-´´´
+```
 
 ### 4. Öffne die App in deinem Browser unter:
-´´´
+```
 http://localhost:3000
-´´´
+```
 
 ### 5. Produktions-Build erstellen:
-´´´
+```
 npm run build
-´´´
+```
 
 ### 6. Vorschau des Builds anzeigen:
-´´´
+```
 npm start
-´´´
+```
 
 ## 🖥️ Live-Demo
 Die Live-Version dieses Projekts ist hier verfügbar: https://gm-kontakt.vercel.app/
