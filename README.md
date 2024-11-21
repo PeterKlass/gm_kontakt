@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏥 CarePulse – Gesundheitsmanagement-System
+CarePulse ist ein modernes und umfassendes Gesundheitsmanagement-System, entwickelt mit Next.js und TailwindCSS. Die Anwendung bietet Patienten und Ärzten eine intuitive Plattform zur Terminverwaltung, Patientenregistrierung und administrativen Aufgaben – alles in einer einzigen, benutzerfreundlichen Oberfläche.
 
-## Getting Started
+## 🎯 Ziel des Projekts
+- Erleichterung der Terminverwaltung für Patienten und Ärzte.
+- Sicherstellung einer klaren Kommunikation durch eine strukturierte Patientendatenbank.
+- Optimierung von Workflows durch Automatisierung und moderne Technologien.
+- Bereitstellung eines intuitiven Dashboards für Administratoren.
 
-First, run the development server:
+## 🌟 Features
+- Terminplanung mit automatischer Validierung und detaillierten Angaben.
+- Patientenregistrierung mit Erfassung persönlicher und medizinischer Informationen.
+- Rollenbasierter Zugriff (Admin-Ansicht & Patientenansicht).
+- Statistiken zur Überwachung geplanter, anstehender und abgesagter Termine.
+- Fehlerüberwachung und -behebung mittels Sentry-Integration.
+- Responsives Design, optimiert für Desktop- und mobile Geräte.
+- Datenschutz und Sicherheitsmaßnahmen durch individuelle Einwilligungen.
 
-```bash
+## 📂 Projektstruktur
+´´´
+/
+├── components/              # Wiederverwendbare Komponenten (Forms, Buttons, Tables)
+├── lib/                     # API-Aufrufe, Validierungen und Hilfsfunktionen
+├── pages/                   # Seiten (Home, Admin, Register, Appointment)
+├── public/                  # Statische Dateien und Assets (Bilder, Icons)
+├── styles/                  # Globale CSS-Dateien (TailwindCSS-Konfiguration)
+├── types/                   # Typdefinitionen (z. B. für Appwrite)
+└── tailwind.config.ts       # TailwindCSS-Konfigurationsdatei
+´´´
+
+## 🚀 Technologien
+- Next.js: React-Framework für serverseitiges Rendering und API-Integration.
+- TailwindCSS: Utility-First CSS-Framework für schnelle und anpassbare Gestaltung.
+- TypeScript: Statische Typisierung für robusten Code.
+- Sentry: Fehlerüberwachung und Leistungsmetriken.
+- Zod: Validierung von Formulardaten.
+- Appwrite: Backend-Service für Benutzerdatenverwaltung und -authentifizierung.
+
+## 📝 Lernpunkte
+Während der Entwicklung dieses Projekts wurden folgende Technologien und Konzepte vertieft:
+
+- Integration von formulargestützter Validierung mit Zod und React-Hook-Form.
+- Nutzung von Sentry zur Echtzeit-Fehlerüberwachung.
+- Erstellung von dynamischen Dashboards und Tabellen mit Echtzeitdaten.
+- Implementierung von rollenspezifischen Ansichten für Patienten und Administratoren.
+- Verwendung von TailwindCSS zur schnellen Gestaltung und Anpassung des Designs.
+
+## ⚙️ Installation und Verwendung
+### 1. Repository klonen:
+´´´
+git clone https://github.com/PeterKlass/gm_kontakt.git
+cd gm_kontakt
+´´´
+
+### 2. Abhängigkeiten installieren:
+´´´
+npm install
+´´´
+
+### 3. Entwicklungsserver starten:
+´´´
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+´´´
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 4. Öffne die App in deinem Browser unter:
+´´´
+http://localhost:3000
+´´´
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 5. Produktions-Build erstellen:
+´´´
+npm run build
+´´´
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 6. Vorschau des Builds anzeigen:
+´´´
+npm start
+´´´
 
-## Learn More
+## 🖥️ Live-Demo
+Die Live-Version dieses Projekts ist hier verfügbar: https://gm-kontakt.vercel.app/
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🔗 Weitere Projekte
+Weitere Projekte von mir findest du hier: https://github.com/PeterKlass
